@@ -67,8 +67,12 @@ const FloatingMenu = () => {
     },
   ];
   return (
-    <div className="flex items-center justify-center  w-full  fixed bottom-2">
-      <FloatingDock items={links} />
+    <div className="flex items-center justify-center  w-fit fixed bottom-1 left-[48vw] md:left-[38vw]">
+      <FloatingDock
+        items={links}
+        desktopClassName={"opacity-50  hover:opacity-100"}
+        mobileClassName={"opacity-50  hover:opacity-100"}
+      />
     </div>
   );
 };

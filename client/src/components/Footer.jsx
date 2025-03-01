@@ -18,12 +18,12 @@ const Footer = () => {
         <div className="flex text-white items-center justify-center text-center">
           <ul className="flex flex-col gap-2 font-jersey text-3xl">
             <li>
-              <Link to="/about" className=" hover:text-black">
+              <Link to="/about" className=" hover:text-purple-500">
                 About
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-black">
+              <Link to="/contact" className="hover:text-purple-500">
                 Contact
               </Link>
             </li>
@@ -35,31 +35,33 @@ const Footer = () => {
             <li>
               <Link className="flex gap-x-2 items-center">
                 <FaInstagram />
-                <span className="hover:text-black">Instagram</span>
+                <span className="hover:text-purple-500">Instagram</span>
               </Link>
             </li>
             <li>
               <Link className="flex gap-x-2 items-center">
                 <FaFacebook />
-                <span className="hover:text-black">Facebook</span>
+                <span className="hover:text-purple-500">Facebook</span>
               </Link>
             </li>
             <li>
               <Link className="flex gap-x-2 items-center">
                 <FaGithub />
-                <span className="hover:text-black">Github</span>
+                <span className="hover:text-purple-500">Github</span>
               </Link>
             </li>
           </ul>
         </div>
         <div className="flex items-center justify-center text-3xl font-jersey">
           <div className="flex flex-col gap-x-2 text-center">
-            <Link className="text-white hover:text-black">Privacy Policy</Link>
-            <Link className="text-white hover:text-black">
+            <Link className="text-white hover:text-purple-500">
+              Privacy Policy
+            </Link>
+            <Link className="text-white hover:text-purple-500">
               Terms of Conditions
             </Link>
-            <span className="text-white hover:text-black">
-              Blogify&copy;<span className="text-purple-400">-2025</span>
+            <span className="text-white hover:text-purple-500">
+              Blogify&copy;<span className="text-purple-500">-2025</span>
             </span>
           </div>
         </div>
